@@ -9,8 +9,18 @@
         bottom: 8.5%;
     }
 }
-
-@media (max-width: 1026px) {
+@media (max-width: 1030px) {
+    .left{
+        width: 40%;
+        height: 100%;
+        gap: 2rem;
+        justify-content: flex-start;
+    }
+    .right:hover h2{
+        bottom: 4.5%;
+    }
+}
+@media (max-width: 768px) {
     .container{
         flex-direction: column;
     }
@@ -27,14 +37,12 @@
     }
     .right{
         width: 100%;
-        padding-bottom: 2rem;
-        height: max-content;
     }
     .right h2{
         z-index: -10;
     }
     .right:hover h2{
-        bottom: 6.5%;
+        bottom: 8%;
         z-index: 1;
     }
 }
