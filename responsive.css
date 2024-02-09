@@ -39,6 +39,7 @@
     .right h2{
         bottom: 8%;
         font-size: 1.6rem;
+        z-index: 1;
     }
     .right:hover h2{
         bottom: 8%;
