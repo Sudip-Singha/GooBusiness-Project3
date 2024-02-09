@@ -1,0 +1,46 @@
+@media (max-width: 1220px) {
+    .form {
+        width: 80%;
+    }
+    .right h1 {
+        font-size: 4rem;
+    }
+    .right:hover h2 {
+        bottom: 8.5%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .container{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .right h2{
+        bottom: 9.5%;
+    }
+}
+
+@media (max-width:520px) {
+    .form{
+        width: 95%;
+    }
+    .right h1{
+        font-size: 3rem;
+    }
+    .right h2{
+        bottom: 8%;
+        font-size: 1.6rem;
+    }
+    .right:hover h2{
+        bottom: 8%;
+    }
+
+    .right button{
+        width: 30%;
+    }
+}
